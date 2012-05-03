@@ -1,5 +1,8 @@
+# IDE
 .idea
-target
-
-*.class
 *.iml
+
+# Java
+target
+*.class
+
