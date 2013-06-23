@@ -18,9 +18,18 @@
         </fileSet>
         <fileSet encoding="UTF-8" filtered="true" packaged="true">
             <directory>src/test/java</directory>
+            <excludes>
+                <exclude>acceptance/*</exclude>
+            </excludes>
+        </fileSet>
+        <fileSet encoding="UTF-8" filtered="true">
+            <directory>src/test/java/acceptance</directory>
         </fileSet>
         <fileSet encoding="UTF-8" filtered="true">
             <directory>src/test/resources</directory>
+        </fileSet>
+        <fileSet encoding="UTF-8" filtered="true">
+            <directory>src/test/resources/acceptance</directory>
         </fileSet>
         <fileSet encoding="UTF-8" filtered="true">
             <directory></directory>
